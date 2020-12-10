@@ -22,7 +22,7 @@ thurs_vals = thurs.values()
 def add(lst):
     total = 0 
     for i in lst:
-	    total += i
+        total += i
     return total 
 #----------------------------
 z = lambda x, y : print(x, y)
