@@ -37,4 +37,5 @@ days = [
 
 for i in days:
     print(i["day_name"])
-    smoked_at = i["smoked_at"].values()
+    smoked_at = i["smoked_at"]
+    print(sum(smoked_at))
