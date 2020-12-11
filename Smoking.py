@@ -1,5 +1,5 @@
 days = [
-    { "day_name": "wed",
+    { "day_name": 'wed',
       "smoked_at": {
         '15:30': 1,
         '16:30': 1,
@@ -12,8 +12,8 @@ days = [
         '25:00': 5
         }
     },
-    { "day_name": "thurs",
-        "smoked_at": {
+    { "day_name": 'thurs',
+      "smoked_at": {
         '08:15': 1,
         '08:40': 1,
         '09:20': 1,
@@ -35,7 +35,12 @@ days = [
     }
 ]
 
+total = 0 
 for i in days:
-    print(i["day_name"])
-    smoked_at = i["smoked_at"].values
-    print(sum(smoked_at))
+    day = (i["day_name"])
+    smokes = i["smoked_at"].values()
+    smokes_per_day = sum(smokes)
+    print(day, smokes_per_day)
+    total += smokes_per_day
+    
+print('total:', total)
