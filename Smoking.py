@@ -1,6 +1,6 @@
 days = [
     { "day_name": "wed",
-      "smoked_at" {
+      "smoked_at": {
         '15:30': 1,
         '16:30': 1,
         '16:50': 2,
@@ -13,7 +13,7 @@ days = [
         }
     },
     { "day_name": "thurs",
-        "smoked_at" {
+        "smoked_at": {
         '08:15': 1,
         '08:40': 1,
         '09:20': 1,
